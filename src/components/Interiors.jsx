@@ -134,7 +134,7 @@ export default function Interiors() {
       <div className="w">
         <div className="sh rv">
           <div><small>02 — Best work</small><h2>Interior <em>design</em></h2></div>
-          <p>3D walkthroughs of spaces designed from concept to detail — restaurants, a café, an office and a retail store.</p>
+          <p>3D walkthroughs of spaces designed from concept to detail  restaurants, a café, an office and a retail store.</p>
         </div>
         <div className="reel rv">
           <div className="rs" id="rs" ref={rsRef}>

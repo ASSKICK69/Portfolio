@@ -1,11 +1,8 @@
 const PAGES = [
   { name: 'Study in Bengaluru', handle: '@studyinbengaluru.com_', tag: 'Main page', label: 'Study in Bengaluru on Instagram', href: 'https://www.instagram.com/studyinbengaluru.com_?dlrf=MXV2c3IxYmF1czU4Yw==' },
-  { name: 'SIB Kannada', handle: '@studyinbengalurukannada', tag: 'Kannada', label: 'SIB Kannada on Instagram', href: 'https://www.instagram.com/studyinbengalurukannada?vrfl=bnB0YjRtNzhoYTds' },
-  { name: 'SIB Kerala', handle: '@sib_kerala_', tag: 'Kerala', label: 'SIB Kerala on Instagram', href: 'https://www.instagram.com/sib_kerala_?srtk=MWMxdzF1OXE1cGFxYQ==' },
-  { name: 'Dream Study TN', handle: '@dream_study_tn', tag: 'Tamil Nadu', label: 'Dream Study TN on Instagram', href: 'https://www.instagram.com/dream_study_tn?rpxt=MWJvbGR6eGM0emN1eQ==' },
-  { name: 'Study in Telangana', handle: '@studyintelangana', tag: 'Telangana', label: 'Study in Telangana on Instagram', href: 'https://www.instagram.com/studyintelangana?obrf=MWh5MTZoY2JldWU5eA==' },
-  { name: 'Career Tips · SIB', handle: '@career.tips_sib', tag: 'Career tips', label: 'Career Tips · SIB on Instagram', href: 'https://www.instagram.com/career.tips_sib?rpxt=Z2R5a2d6MGp3bmly' },
-]
+  { name: 'Incubenation', handle: '@incubenation', tag: 'Main page', label: 'Incubenation on Instagram', href: 'https://www.instagram.com/incubenation?dlrf=MXV2c3IxYmF1czU4Yw==' },
+{ name: 'Startup Park', handle: '@startuppark', tag: 'Main page', label: 'Startup Park on Instagram', href: 'https://www.instagram.com/thestartuppark/' },
+] 
 
 function InstaIcon() {
   return (
@@ -23,7 +20,7 @@ export default function Marketing() {
       <div className="w">
         <div className="sh rv">
           <div><small>03 — Marketing</small><h2>Social media <em>pages</em></h2></div>
-          <p>The Instagram network behind Study in Bengaluru — content, creatives and growth across states.</p>
+          <p>The Instagram network behind Study in Bengaluru  content, creatives and growth across states.</p>
         </div>
         <div className="mkg rv">
           {PAGES.map((p, i) => (
