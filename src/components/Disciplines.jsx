@@ -5,8 +5,8 @@ export default function Disciplines() {
     <section className="sec" id="disc">
       <div className="w">
         <div className="sh rv">
-          <div><small>01 — What I do</small><h2>Four ways <em>to create</em></h2></div>
-          <p>One designer, four disciplines — all driven by a problem-solving mindset.</p>
+          <div><small>01 -- What I do</small><h2>Four ways <em>to create</em></h2></div>
+          <p>One designer, four disciplines all driven by a problem solving mindset.</p>
         </div>
         <div className="dw rv" id="dw">
           {DISC.map((d) => (
